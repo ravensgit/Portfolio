@@ -24,10 +24,10 @@ const Contact = () => {
       <div ref={contentRef} className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <p className="font-mono text-sm text-blue-400 mb-3 tracking-[0.35em] uppercase">Contact</p>
         <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
-          Let’s build something reliable together.
+          Let's connect.
         </h2>
         <p className="text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed text-lg">
-          I am open to Software Engineer, Backend Engineer, Data Engineer and AI Platform opportunities across the United States.
+          I am currently seeking Software Engineer, Backend Engineer, Data Engineer and AI Platform opportunities across the United States.
         </p>
         <div className="flex justify-center gap-3 flex-wrap">
           <a href="mailto:naveen.cspro@gmail.com" className="flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-blue-600 to-violet-600 text-sm font-medium hover:scale-105 transition-transform">
