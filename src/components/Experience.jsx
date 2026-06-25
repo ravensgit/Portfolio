@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const roles = [
   {
     period: 'April 2024 – December 2024',
-    title: 'System Engineer — Java Backend',
+    title: 'System Engineer - Java Backend',
     org: 'Tata Consultancy Services, Chennai',
     points: [
       'Built backend features for a high traffic retail CRM across 10+ Spring Boot microservices serving a major Australian supermarket chain.',
@@ -18,7 +18,7 @@ const roles = [
   },
   {
     period: 'January 2023 – March 2024',
-    title: 'Assistant System Engineer — Data Integration',
+    title: 'Assistant System Engineer - Data Integration',
     org: 'Tata Consultancy Services, Chennai',
     points: [
       'Built and maintained enterprise ETL pipelines using Informatica PowerCenter and IICS across SAP, Oracle, GCP, Salesforce and Kronos.',
@@ -29,7 +29,7 @@ const roles = [
   },
   {
     period: 'December 2021 – December 2022',
-    title: 'Assistant System Engineer — Trainee',
+    title: 'Assistant System Engineer - Trainee',
     org: 'Tata Consultancy Services, Chennai',
     points: [
       'Completed training in ETL development, SQL, Linux and Informatica before moving into production pipeline work within three months.',
@@ -46,11 +46,11 @@ const awards = [
     certificates: [
       {
         label: 'Certificate 1',
-        href: '/certificates/star-of-the-month-1.pdf'
+        href: 'star-of-the-month-1.pdf'
       },
       {
         label: 'Certificate 2',
-        href: '/certificates/star-of-the-month-2.pdf'
+        href: 'star-of-the-month-2.pdf'
       }
     ]
   },
@@ -60,7 +60,7 @@ const awards = [
     certificates: [
       {
         label: 'View Certificate',
-        href: '/certificates/on-the-spot-award.pdf'
+        href: 'on-the-spot-award.pdf'
       }
     ]
   }
