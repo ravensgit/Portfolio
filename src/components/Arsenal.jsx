@@ -5,10 +5,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const groups = [
   { title: 'Languages', items: ['Java', 'Python', 'JavaScript', 'SQL', 'Shell Scripting'] },
-  { title: 'Frontend', items: ['React.js', 'HTML5', 'CSS3', 'Responsive Web Design', 'Component-Based Development'] },
   { title: 'Backend', items: ['Spring Boot', 'Hibernate (JPA)', 'RESTful APIs', 'Microservices', 'Apache Kafka', 'OAuth 2.0'] },
+  { title: 'Frontend', items: ['React.js', 'HTML5', 'CSS3', 'Responsive Web Design', 'Component-Based Development'] },
   { title: 'Data Engineering', items: ['ETL Pipelines', 'Informatica', 'Data Integration', 'SQL Optimization', 'Pandas', 'NumPy'] },
-  { title: 'AI / ML', items: ['PyTorch', 'PySpark', 'TensorFlow', 'Scikit-learn', 'Hugging Face Transformers', 'BLIP', 'CLIP', 'Vision-Language Models', 'Computer Vision'] },
+  { title: 'AI / ML', items: ['PyTorch', 'PySpark', 'TensorFlow', 'Scikit-learn', 'Hugging Face Transformers', 'BLIP', 'CLIP', 'Computer Vision', 'Vision-Language Models'] },
   { title: 'Cloud & DevOps', items: ['Azure DevOps', 'Docker', 'Kubernetes', 'GCP', 'Git', 'Jenkins', 'Streamlit'] },
   { title: 'Databases', items: ['MySQL', 'MS SQL', 'SAP HANA', 'Oracle'] },
 ];
@@ -34,7 +34,7 @@ const Arsenal = () => {
         <p className="font-mono text-sm text-blue-400 mb-3 text-center tracking-[0.35em] uppercase">Skills</p>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-5 text-center">Technical toolkit</h2>
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-14 leading-relaxed">
-          Tools I have used across production backend work, enterprise data pipelines, applied AI projects, and React-based frontend development.
+          Technologies I have used across enterprise software, backend development, data engineering, applied AI and frontend projects.
         </p>
         <div ref={gridRef} className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {groups.map((g) => (
