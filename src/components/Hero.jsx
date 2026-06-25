@@ -45,10 +45,10 @@ const Hero = () => {
             Naveen<br />Manikandan
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 mb-5 leading-relaxed max-w-xl font-medium">
-            Building reliable software from backend systems to intelligent applications.
+            Drawn to the engineering behind software, from backend systems to intelligent applications.
           </p>
           <p className="text-gray-400 max-w-xl mb-8 leading-loose">
-            Software engineer with industry experience at TCS and an MS in Computer Science from the University at Buffalo. I have worked on backend development, enterprise data pipelines, cloud integrations and machine learning research.
+            Software engineer with three years of industry experience at Tata Consultancy Services and an MS in Computer Science and Engineering from the University at Buffalo. Every step in my career has come from wanting to understand software a little better than I did before.
           </p>
 
           <div ref={statsRef} className="grid grid-cols-3 gap-4 max-w-xl mb-10">
@@ -61,7 +61,7 @@ const Hero = () => {
               <p className="text-xs text-gray-400 mt-1 uppercase tracking-wider">VLM Reduction</p>
             </div>
             <div className="glass stat-card rounded-xl p-4">
-              <p className="text-3xl font-bold text-white">MS CS</p>
+              <p className="text-3xl font-bold text-white">MS CSE</p>
               <p className="text-xs text-gray-400 mt-1 uppercase tracking-wider">University at Buffalo</p>
             </div>
           </div>
