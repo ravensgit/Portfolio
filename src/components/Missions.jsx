@@ -29,9 +29,9 @@ const projects = [
     eyebrow: 'Responsive UI',
     title: 'Personal Engineering Portfolio Website',
     date: 'May 2026',
-    type: 'Frontend Project',
+    type: 'Portfolio Project',
     tech: ['React.js', 'JavaScript', 'HTML5', 'CSS3'],
-    desc: 'Designed and developed a responsive React portfolio using reusable components, modular UI sections, custom CSS, and cross-device layouts to showcase professional experience and engineering projects.',
+    desc: 'Designed and developed a responsive portfolio using React, reusable components and modern frontend development practices to showcase professional experience and technical projects.',
     live: null,
     github: 'https://github.com/ravensgit/Portfolio',
   },
@@ -67,7 +67,7 @@ const Missions = () => {
         <p className="font-mono text-sm text-blue-400 mb-3 text-center tracking-[0.35em] uppercase">Projects</p>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-5 text-center">Selected work</h2>
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-14 leading-relaxed">
-          A focused set of projects across applied AI, data engineering, frontend development, and deep learning.
+          A selection of projects spanning applied AI, data engineering, backend systems and frontend development.
         </p>
 
         <div ref={gridRef} className="grid md:grid-cols-2 gap-6">
